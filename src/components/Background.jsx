@@ -27,8 +27,12 @@ export const Background = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={vantaRef} style ={{height: "100vh", width:"100vw"}}>
-      
+    <>
+    <div ref={vantaRef} style ={{height: "100vh", width:"100vw", "z-index":"-1"}}>
+      <div>
+        <p>hi</p>
+      </div>
     </div>
+    </>
   );
 };
