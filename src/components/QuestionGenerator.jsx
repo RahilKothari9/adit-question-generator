@@ -33,7 +33,8 @@ function QuestionGenerator() {
         Return a single question with no formatting and having a maximum of 50 words and minimum of 20.
         DO NOT end your sentences with who would it be and why or phrases of that nature, generally ending in and why or how.
         Make the questions exciting, dont address people with phrases like my friends, hey everyone etc.
-        Ask about experiences, personal milestones, personal events, preferences, choices .
+        Ask about experiences, personal milestones, personal events, preferences, choices, tastes, relationships .
+        Have the questions be a little out of the box.
         
         `;
       
