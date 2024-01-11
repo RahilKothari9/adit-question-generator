@@ -24,15 +24,21 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 5%;
+  overflow: hidden;
+  height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+h2 {
+  margin: 0;
+  font-size: clamp(2 rem, 4.15vw, 100rem);
+  text-align: left;
+  line-height: 1.1;
+  font-weight: light;
 }
 
 button {
